@@ -115,11 +115,11 @@ const index = () => {
       }
 
       <div className="pt-24">
-        <div className="flex flex-col space-y-16 lg:flex-row lg:items-center">
+        <div className="flex flex-col lg:flex-row lg:items-center">
           <img
             src="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bluehost-v1-0-2%2F782%2F1192782%2FxZ9n2NCd%2Fbfc3431b19704a92869cef07a3c0c9b9&methods=resize%2C1000%2C5000"
             alt=""
-            className="order-2 lg:order-1 lg:w-1/3"
+            className="order-2 pt-16 lg:order-1 lg:w-1/3 lg:pt-0"
           />
 
           <div className="order-1 mt-8 lg:order-2 lg:w-2/3 ">
