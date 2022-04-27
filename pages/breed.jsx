@@ -3,7 +3,7 @@
 const breed = () => {
   return (
     <div className="mx-auto p-6 md:p-16 xl:container">
-      <div className="pt-24 pb-8">
+      <div className="pt-24">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">Breeding Formula</h1>
         <p className="mt-8 text-gray-400">
           Combining Gen1 NFT with ZIPPO and $OSARU coins creates a new ape which is a Gen2 ape collection.
