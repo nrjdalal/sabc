@@ -17,8 +17,8 @@ const index = () => {
         </div>
       </div>
 
-      <div className="flex space-x-6  pt-24">
-        <div className="bg-violet-900">
+      <div className="flex flex-wrap justify-between space-y-6 pt-24">
+        <div className="w-full bg-violet-900 md:w-[30%]">
           <img
             src="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bluehost-v1-0-2%2F782%2F1192782%2FxZ9n2NCd%2Fcf5a7e45c5aa48c29f598413d2254ec2&methods=resize%2C900%2C5000"
             alt=""
@@ -37,7 +37,7 @@ const index = () => {
           </div>
         </div>
 
-        <div className="bg-violet-900">
+        <div className="w-full bg-violet-900 md:w-[30%]">
           <img
             src="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bluehost-v1-0-2%2F782%2F1192782%2FxZ9n2NCd%2F3edec50ab84443faa5c3a3ff66643bba&methods=resize%2C900%2C5000"
             alt=""
@@ -56,7 +56,7 @@ const index = () => {
           </div>
         </div>
 
-        <div className="bg-violet-900">
+        <div className="w-full bg-violet-900 md:w-[30%]">
           <img
             src="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bluehost-v1-0-2%2F782%2F1192782%2FxZ9n2NCd%2F07ef06a54baf40caae961e38255be8c0&methods=resize%2C900%2C5000"
             alt=""
