@@ -175,13 +175,15 @@ const index = () => {
           // ~ Ending section
         }
 
-        <div className="w-full pt-48 pb-8">
-          <div className="flex flex-col items-center text-center">
-            <h1 className="font-anton text-4xl tracking-wider">GET YOUR SABC APE TODAY</h1>
+        <div className="w-full pb-8">
+          <div className="mt-32 w-full rounded-3xl bg-red-900 py-24">
+            <div className="flex flex-col items-center text-center">
+              <h1 className="font-anton text-4xl tracking-wider">GET YOUR SABC APE TODAY</h1>
 
-            <p className="mt-8 text-gray-100">Go to the secondary market and get your ape to yield $OSARU coin.</p>
+              <p className="mt-8 text-gray-100">Go to the secondary market and get your ape to yield $OSARU coin.</p>
 
-            <button className="mt-8 rounded-lg bg-yellow-300 p-10 py-4 text-base text-black">Magic Eden</button>
+              <button className="mt-8 rounded-lg bg-yellow-300 p-10 py-4 text-base text-black">Magic Eden</button>
+            </div>
           </div>
         </div>
       </div>
