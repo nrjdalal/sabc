@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <ul className="flex w-full flex-col items-center justify-center space-y-4 bg-gray-900 p-6 text-gray-300 md:flex-row md:space-x-6">
+    <ul className="flex w-full flex-col items-center justify-center space-y-4 bg-gray-900 p-6 text-gray-300 md:flex-row md:space-y-0 md:space-x-6">
       <li>
         <Link href="/">
           <a>Home</a>
