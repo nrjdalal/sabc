@@ -67,21 +67,33 @@ const roadmap = () => {
       </Phase>
 
       <Phase phase="5" title="Breeding Phase">
-        March – April
+        May – June
         <br />
-        <br /> ✅ ZIPPO Visual Preparation
-        <br /> 🟦 Finalise requirements for DIAMOND ZIPPO
-        <br /> 🟦 Take a snapshot for ZIPPO distribution
-        <br /> 🟦 Finalise the number of each ZIPPO
-        <br /> 🟦 Issue ZIPPO as NFT
-        <br /> 🟦 Airdrop ZIPPO : One month after starting staking
+        <br /> ✅ Finalisation of the mechanism of Breeding
+        <br /> ✅ Hire an Engineer to implement
+        <br /> 🟦 Implementation of the breeding function
+        <br /> 🟦 Start Breeding
         <br />
-        <br /> ✅ Coin design
-        <br /> ✅ Issuance of coins
-        <br /> ✅ Hire an Engineer and request Staking feature
-        <br /> ✅ Establish a channel to explain OSARU coins
-        <br /> 🟦 Implementation of staking
-        <br /> 🟦 Holders start staking: Concluding start date with technicians now.
+        <br /> 🟦 Release of visuals of the apes produced by the breeding
+      </Phase>
+
+      <Phase phase="5" title="Release of Gen2">
+        June
+        <br />
+        <br /> 🟦 Finalise the number of collections
+        <br /> 🟦 Register on Up-Coming site and promote to attract new users
+        <br /> 🟦 Minting preparation
+        <br /> 🟦 Sale
+      </Phase>
+
+      <Phase phase="5" title="Release of ETH Collection">
+        July
+        <br />
+        <br /> 🟦 Finalise the number of collections
+        <br /> 🟦 Register on Up-Coming site and promote to attract new users
+        <br /> 🟦 Minting preparation
+        <br /> 🟦 Distribute to Gen 2 holders
+        <br /> 🟦 Sale
       </Phase>
 
       <div className="pt-24 pb-8">
