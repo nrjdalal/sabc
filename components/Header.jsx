@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav className="fixed top-0 z-10 flex h-16 w-full items-center justify-between bg-black p-6">
       <Link href="/">
-        <a>
+        <a className="hidden lg:block">
           <img
             src="https://storage.googleapis.com/production-bluehost-v1-0-2/782/1192782/xZ9n2NCd/17c82326a49949968e98b67aa7550260"
             alt=""
@@ -16,7 +16,7 @@ const Header = () => {
 
       <div className="flex items-center space-x-6">
         <ul className="flex space-x-6 text-base">
-          <li>
+          <li className="hidden lg:block">
             <Link href="/">
               <a>Home</a>
             </Link>
@@ -47,7 +47,9 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        <button className="rounded-sm bg-yellow-300 p-4 py-2 text-base text-black">Connect Wallet</button>
+        <button className="hidden rounded-sm bg-yellow-300 p-4 py-2 text-base text-black lg:block">
+          Connect Wallet
+        </button>
       </div>
     </nav>
   )
