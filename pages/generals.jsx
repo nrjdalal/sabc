@@ -14,27 +14,27 @@ const osaru = () => {
         <div className="mt-4 flex flex-wrap justify-between lg:justify-center">
           <div className="mt-8 w-[47.5%] border-b-2 p-4 lg:w-1/3 lg:border-l-2 lg:border-b-0">
             <h2 className="font-anton text-2xl tracking-wider">Yield</h2>
-            <p className="mt-4 text-gray-400">Gen1 apes yield 10-15 $OSARU per day. </p>
+            <p className="mt-4 text-gray-100">Gen1 apes yield 10-15 $OSARU per day. </p>
           </div>
 
           <div className="mt-8 w-[47.5%] border-b-2 p-4 lg:w-1/3 lg:border-l-2 lg:border-b-0">
             <h2 className="font-anton text-2xl tracking-wider">Breed</h2>
-            <p className="mt-4 text-gray-400">600 $OSARU is required per breeding.</p>
+            <p className="mt-4 text-gray-100">600 $OSARU is required per breeding.</p>
           </div>
 
           <div className="mt-8 w-[47.5%] border-b-2 p-4 lg:w-1/3 lg:border-l-2 lg:border-b-0">
             <h2 className="font-anton text-2xl tracking-wider">Platinum Ape</h2>
-            <p className="mt-4 text-gray-400">Used by selected members to win Platinum Apes.</p>
+            <p className="mt-4 text-gray-100">Used by selected members to win Platinum Apes.</p>
           </div>
 
           <div className="mt-8 w-[47.5%] border-b-2 p-4 lg:w-1/3 lg:border-l-2 lg:border-b-0">
             <h2 className="font-anton text-2xl tracking-wider">Ticket</h2>
-            <p className="mt-4 text-gray-400">Can be used as a raffle entry ticket and Voting.</p>
+            <p className="mt-4 text-gray-100">Can be used as a raffle entry ticket and Voting.</p>
           </div>
 
           <div className="mt-8 w-[47.5%] border-b-2 p-4 lg:w-1/3 lg:border-l-2 lg:border-b-0">
             <h2 className="font-anton text-2xl tracking-wider">Future</h2>
-            <p className="mt-4 text-gray-400">More utilities are coming for the future.</p>
+            <p className="mt-4 text-gray-100">More utilities are coming for the future.</p>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ const osaru = () => {
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="mt-8 lg:w-2/3">
             <h2 className="font-anton text-4xl tracking-wider text-yellow-400">Staking Apes for $OSARU</h2>
-            <p className="mt-6 text-gray-300">
+            <p className="mt-6 text-gray-100">
               Gen1 apes produce 10-15 $OSARU every day by staking. The number of coins will change depending on the
               rarity of Gen1 Ape.
               <br />

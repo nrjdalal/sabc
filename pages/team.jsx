@@ -8,7 +8,7 @@ const about = () => {
         <div>
           <h2 className="mt-4 font-anton text-3xl tracking-wider text-white">{title}</h2>
           <h3 className="mt-4 font-anton text-xl tracking-wider text-gray-200">{tokens}</h3>
-          <p className="mt-6 text-gray-400">{children}</p>
+          <p className="mt-6 text-gray-100">{children}</p>
         </div>
       </div>
     )

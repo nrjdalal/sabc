@@ -8,7 +8,7 @@ const zippo = () => {
         <div>
           <h2 className="mt-4 font-anton text-3xl tracking-wider text-yellow-400">{title}</h2>
           <h3 className="mt-4 font-anton text-xl tracking-wider">{tokens}</h3>
-          <p className="mt-6 text-gray-400">{children}</p>
+          <p className="mt-6 text-gray-100">{children}</p>
         </div>
       </div>
     )
@@ -29,17 +29,17 @@ const zippo = () => {
         <div className="mt-4 flex flex-wrap">
           <div className="mt-8 w-1/2 border-l-2 p-4">
             <h2 className="font-anton text-2xl tracking-wider">Airdropped</h2>
-            <p className="mt-4 text-gray-400">Zippos will be distributed to the person who is the Gen1 holder.</p>
+            <p className="mt-4 text-gray-100">Zippos will be distributed to the person who is the Gen1 holder.</p>
           </div>
 
           <div className="mt-8 w-1/2 border-l-2 p-4">
             <h2 className="font-anton text-2xl tracking-wider">Breeding</h2>
-            <p className="mt-4 text-gray-400">Zippo is used for breeding to generate Gen2 apes.</p>
+            <p className="mt-4 text-gray-100">Zippo is used for breeding to generate Gen2 apes.</p>
           </div>
 
           <div className="mt-8 w-1/2 border-l-2 p-4">
             <h2 className="font-anton text-2xl tracking-wider">Trading</h2>
-            <p className="mt-4 text-gray-400">Zippo can be traded on the market after being airdropped.</p>
+            <p className="mt-4 text-gray-100">Zippo can be traded on the market after being airdropped.</p>
           </div>
         </div>
       </div>

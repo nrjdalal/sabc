@@ -5,7 +5,7 @@ const breed = () => {
     <div className="mx-auto p-6 md:p-16 xl:container">
       <div className="pt-24">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">Breeding Formula</h1>
-        <p className="mt-8 text-gray-400">
+        <p className="mt-8 text-gray-100">
           Combining Gen1 NFT with ZIPPO and $OSARU coins creates a new ape which is a Gen2 ape collection.
           <br />
           These three materials used for breeding will be BURNED.
@@ -19,7 +19,7 @@ const breed = () => {
 
       <div className="pt-24">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">The Rarity of Gen2 Apes</h1>
-        <p className="mt-8 text-gray-400">
+        <p className="mt-8 text-gray-100">
           The rarity of Gen2 depends on the type of ZIPPO being bred.
           <br />
           *The rarity of Gen1 does not reflect.

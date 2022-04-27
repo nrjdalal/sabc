@@ -7,7 +7,7 @@ const roadmap = () => {
         </div>
         <div>
           <h2 className="mt-4 font-anton text-2xl tracking-wider">{title}</h2>
-          <p className="text-gray-400">{children}</p>
+          <p className="text-gray-100">{children}</p>
         </div>
       </div>
     )
@@ -17,7 +17,7 @@ const roadmap = () => {
     <div className="mx-auto p-6 md:p-16 xl:container">
       <div className="pt-24">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">Our Roadmap</h1>
-        <p className="mt-8 text-gray-400">
+        <p className="mt-8 text-gray-100">
           Our Future Direction strives to adopt only what is feasible.
           <br />
           There are no unrealistic goals out there so you can rest assured that you can move forward with us.
@@ -98,7 +98,7 @@ const roadmap = () => {
 
       <div className="pt-24 pb-8">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">Our Vision to Metaverse</h1>
-        <p className="mt-8 text-gray-400">
+        <p className="mt-8 text-gray-100">
           Our project’s direction and future prospects have finally been decided. It may have taken us too long to
           decide on them, but we have worked out the best way out of the various possibilities that we at Devs can
           really work on and that you can enjoy.

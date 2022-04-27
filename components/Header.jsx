@@ -22,28 +22,23 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="/about">
-              <a>About</a>
+            <Link href="/team">
+              <a>Team</a>
             </Link>
           </li>
           <li>
-            <Link href="/osaru">
-              <a>$OSARU</a>
+            <Link href="/generals">
+              <a>Generals</a>
             </Link>
           </li>
           <li>
-            <Link href="/zippo">
-              <a>Zippo</a>
+            <Link href="/samurais">
+              <a>Samurais</a>
             </Link>
           </li>
-          {/* <li>
-            <Link href="/stake">
-              <a>Stake</a>
-            </Link>
-          </li> */}
           <li>
-            <Link href="/breed">
-              <a>Breed</a>
+            <Link href="/mint">
+              <a>Mint</a>
             </Link>
           </li>
           <li>
