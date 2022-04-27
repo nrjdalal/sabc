@@ -82,7 +82,7 @@ const index = () => {
         }
 
         <div className="pt-24">
-          <div className="flex flex-col lg:flex-row lg:items-center">
+          <div className="flex flex-col space-y-16 lg:flex-row lg:items-center">
             <div className="mt-8 lg:w-2/3">
               <h2 className="font-anton text-4xl tracking-wider text-yellow-400">BREED YOUR APE AND GET GEN2 APES</h2>
               <h3 className="mt-4 font-anton text-xl tracking-wider">What kind of Apes will be born?</h3>
@@ -114,7 +114,7 @@ const index = () => {
         }
 
         <div className="pt-24">
-          <div className="flex flex-col lg:flex-row lg:items-center">
+          <div className="flex flex-col space-y-16 lg:flex-row lg:items-center">
             <img
               src="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bluehost-v1-0-2%2F782%2F1192782%2FxZ9n2NCd%2Fbfc3431b19704a92869cef07a3c0c9b9&methods=resize%2C1000%2C5000"
               alt=""
@@ -144,7 +144,7 @@ const index = () => {
         }
 
         <div className="pt-24">
-          <div className="flex flex-col lg:flex-row lg:items-center">
+          <div className="flex flex-col space-y-16 lg:flex-row lg:items-center">
             <div className="mt-8 lg:w-2/3">
               <h2 className="font-anton text-4xl tracking-wider text-yellow-400">SABC ZIPPO COLLECTION</h2>
               <h3 className="mt-4 font-anton text-xl tracking-wider">Total Supply 3,334</h3>
@@ -176,7 +176,7 @@ const index = () => {
         }
 
         <div className="w-full pb-8">
-          <div className="mt-32 w-full rounded-3xl bg-red-900 py-24">
+          <div className="mt-32 w-full rounded-3xl bg-red-900 py-24 px-6">
             <div className="flex flex-col items-center text-center">
               <h1 className="font-anton text-4xl tracking-wider">GET YOUR SABC APE TODAY</h1>
 
