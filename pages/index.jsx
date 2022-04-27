@@ -27,7 +27,7 @@ const index = () => {
           <div className="p-4">
             <h2 className="mt-8 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
             <h3 className="mt-4 font-anton text-xl tracking-wider">Total Supply 3,333</h3>
-            <p className="mt-6 text-gray-400">
+            <p className="mt-6 text-gray-100">
               Zippos are used to breed Gen2 Apes. Each SABC NFT Holder Will be Airdropped ZIPPOs, of three different
               categories (Diamond, Gold, Silver).
               <br />
@@ -45,7 +45,7 @@ const index = () => {
           <div className="p-4">
             <h2 className="mt-8 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
             <h3 className="mt-4 font-anton text-xl tracking-wider">Total Supply 3,333</h3>
-            <p className="mt-6 text-gray-400">
+            <p className="mt-6 text-gray-100">
               Smoky Ape Basement Club Gen1 collection is the first collection of this project.
               <br />
               They can be used for breeding to get Gen2. It is also the only collection available for staking.
@@ -64,12 +64,11 @@ const index = () => {
           <div className="p-4">
             <h2 className="mt-8 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
             <h3 className="mt-4 font-anton text-xl tracking-wider">Total Supply 3,333</h3>
-            <p className="mt-6 text-gray-400">
-              Smoky Ape Basement Club Gen1 collection is the first collection of this project.
+            <p className="mt-6 text-gray-100">
+              Gen2 are the Ape produced by breeding Gen1 with Zippo and $OSARU coins.
               <br />
-              They can be used for breeding to get Gen2. It is also the only collection available for staking.
-              <br />
-              The minimum number of these collections will be 1666 when the breeding phase starts.
+              The Gen2 NFT itself is the access key to enter our lands and rooms in the Biggest Solana and ETH
+              Metaverse, such as Portals, Sandbox, MatrixWorld and more coming in the future.
             </p>
           </div>
         </div>
