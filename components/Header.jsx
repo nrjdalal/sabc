@@ -52,7 +52,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        {/* <button className="rounded-sm bg-yellow-300 p-3 py-1.5 text-base text-black">Discord</button> */}
+        <button className="rounded-sm bg-yellow-300 p-4 py-2 text-base text-black">Connect Wallet</button>
       </div>
     </nav>
   )
