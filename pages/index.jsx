@@ -17,7 +17,7 @@ const index = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-between space-y-6 pt-24">
+      <div className="flex flex-wrap justify-between space-y-6 pt-24 md:space-y-0">
         <div className="w-full bg-violet-900 md:w-[30%]">
           <img
             src="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bluehost-v1-0-2%2F782%2F1192782%2FxZ9n2NCd%2Fcf5a7e45c5aa48c29f598413d2254ec2&methods=resize%2C900%2C5000"
@@ -28,11 +28,10 @@ const index = () => {
             <h2 className="mt-8 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
             <h3 className="mt-4 font-anton text-xl tracking-wider">Total Supply 3,333</h3>
             <p className="mt-6 text-gray-400">
-              Smoky Ape Basement Club Gen1 collection is the first collection of this project.
+              Zippos are used to breed Gen2 Apes. Each SABC NFT Holder Will be Airdropped ZIPPOs, of three different
+              categories (Diamond, Gold, Silver).
               <br />
-              They can be used for breeding to get Gen2. It is also the only collection available for staking.
-              <br />
-              The minimum number of these collections will be 1666 when the breeding phase starts.
+              The rarity of the Gen2 changes depending on the type of Zippo used for breeding.
             </p>
           </div>
         </div>
