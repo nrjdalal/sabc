@@ -1,7 +1,7 @@
 const roadmap = () => {
   const Phase = ({ children, phase, title }) => {
     return (
-      <div className="mt-12 flex space-x-4">
+      <div className="mt-12 flex flex-col space-x-4 md:flex-row">
         <div className="flex h-24 w-24 items-center justify-center rounded-full bg-gray-800 p-4 font-anton tracking-wider">
           PHASE {phase}
         </div>
@@ -14,17 +14,17 @@ const roadmap = () => {
   }
 
   return (
-    <div className="bg-black p-4 md:p-16">
-      <div className="pb-8">
+    <div className="mx-auto p-6 md:p-16 xl:container">
+      <div className="pb-8 pt-8">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">OUR ROADMAP</h1>
         <p className="mt-8 text-gray-400">
-          Our Future Direction strives to adopt only what is feasible. There are no unrealistic goals out there so you
-          can rest assured that you can move forward with us.
+          Our Future Direction strives to adopt only what is feasible.
+          <br />
+          There are no unrealistic goals out there so you can rest assured that you can move forward with us.
         </p>
       </div>
 
       <Phase phase="1" title="NFT Sale and Startup the Community">
-        <br />
         <br /> ✅ Project Launch & Gen1 Sale
         <br /> ✅ Register to the rarity sites
         <br /> ✅ Start trading on MagicEden
@@ -58,7 +58,33 @@ const roadmap = () => {
         <br /> 🟦 Holders start staking: Concluding start date with technicians now.
       </Phase>
 
-      <div className="pt-24">
+      <Phase phase="4" title="Selling and Buying Zippo Phase">
+        Start right after ZIPPO airdrop
+        <br />
+        <br /> 🟦 Airdropping completed
+        <br /> 🟦 Register Magic Eden
+        <br /> 🟦 Announcement of start of the trading ZIPPO
+      </Phase>
+
+      <Phase phase="5" title="Breeding Phase">
+        March – April
+        <br />
+        <br /> ✅ ZIPPO Visual Preparation
+        <br /> 🟦 Finalise requirements for DIAMOND ZIPPO
+        <br /> 🟦 Take a snapshot for ZIPPO distribution
+        <br /> 🟦 Finalise the number of each ZIPPO
+        <br /> 🟦 Issue ZIPPO as NFT
+        <br /> 🟦 Airdrop ZIPPO : One month after starting staking
+        <br />
+        <br /> ✅ Coin design
+        <br /> ✅ Issuance of coins
+        <br /> ✅ Hire an Engineer and request Staking feature
+        <br /> ✅ Establish a channel to explain OSARU coins
+        <br /> 🟦 Implementation of staking
+        <br /> 🟦 Holders start staking: Concluding start date with technicians now.
+      </Phase>
+
+      <div className="pt-24 pb-8">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">Our Vision to Metaverse</h1>
         <p className="mt-8 text-gray-400">
           Our project’s direction and future prospects have finally been decided. It may have taken us too long to

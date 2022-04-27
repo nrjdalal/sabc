@@ -17,7 +17,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="font-nunito text-lg font-light tracking-wide text-white">
+        <body className="bg-black font-nunito text-lg font-light tracking-wide text-white">
           <Main />
           <NextScript />
         </body>
