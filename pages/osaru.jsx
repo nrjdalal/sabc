@@ -39,7 +39,7 @@ const osaru = () => {
         </div>
       </div>
 
-      <div className="pt-24">
+      <div className="pt-24 pb-8">
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="mt-8 lg:w-2/3">
             <h2 className="font-anton text-4xl tracking-wider text-yellow-400">Staking Apes for $OSARU</h2>

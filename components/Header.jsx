@@ -36,11 +36,11 @@ const Header = () => {
               <a>Zippo</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/stake">
               <a>Stake</a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/breed">
               <a>Breed</a>
