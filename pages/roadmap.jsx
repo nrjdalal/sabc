@@ -16,7 +16,7 @@ const roadmap = () => {
   return (
     <div className="mx-auto p-6 md:p-16 xl:container">
       <div className="pt-24 pb-8">
-        <h1 className="font-anton text-4xl tracking-wider text-yellow-300">OUR ROADMAP</h1>
+        <h1 className="font-anton text-4xl tracking-wider text-yellow-300">Our Roadmap</h1>
         <p className="mt-8 text-gray-400">
           Our Future Direction strives to adopt only what is feasible.
           <br />

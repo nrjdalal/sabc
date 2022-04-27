@@ -4,7 +4,7 @@ import Header from 'components/Header'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="relative overflow-x-hidden bg-black font-nunito text-lg font-light tracking-wide text-white">
+    <div className="relative overflow-x-hidden bg-gray-800 font-nunito text-lg font-light tracking-wide text-white">
       <Header />
       <Component {...pageProps} />
     </div>
