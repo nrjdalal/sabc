@@ -24,8 +24,8 @@ const index = () => {
             alt=""
           />
 
-          <div className="p-4">
-            <h2 className="mt-8 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
+          <div className="p-4 pb-8">
+            <h2 className="mt-4 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
             <h3 className="mt-4 font-anton text-xl tracking-wider">Total Supply 3,333</h3>
             <p className="mt-6 text-gray-100">
               Zippos are used to breed Gen2 Apes. Each SABC NFT Holder Will be Airdropped ZIPPOs, of three different
@@ -42,8 +42,8 @@ const index = () => {
             alt=""
           />
 
-          <div className="p-4">
-            <h2 className="mt-8 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
+          <div className="p-4 pb-8">
+            <h2 className="mt-4 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
             <h3 className="mt-4 font-anton text-xl tracking-wider">Total Supply 3,333</h3>
             <p className="mt-6 text-gray-100">
               Smoky Ape Basement Club Gen1 collection is the first collection of this project.
@@ -61,8 +61,8 @@ const index = () => {
             alt=""
           />
 
-          <div className="p-4">
-            <h2 className="mt-8 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
+          <div className="p-4 pb-8">
+            <h2 className="mt-4 font-anton text-3xl tracking-wider text-yellow-400">Gen1 Ape</h2>
             <h3 className="mt-4 font-anton text-xl tracking-wider">Total Supply 3,333</h3>
             <p className="mt-6 text-gray-100">
               Gen2 are the Ape produced by breeding Gen1 with Zippo and $OSARU coins.
