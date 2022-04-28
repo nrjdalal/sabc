@@ -8,7 +8,7 @@ const zippo = () => {
         <div>
           <h2 className="mt-4 font-anton text-3xl tracking-wider text-yellow-400">{title}</h2>
           <h3 className="mt-4 font-anton text-xl tracking-wider">{tokens}</h3>
-          <p className="mt-6 text-gray-100">{children}</p>
+          <p className="mt-4 text-gray-100">{children}</p>
         </div>
       </div>
     )
@@ -21,7 +21,7 @@ const zippo = () => {
       sarr.push(
         <div>
           <img
-            className="aspect-square"
+            className="aspect-square rounded-3xl"
             src={`https://etclazylions.com/_next/image?url=%2Fimages%2F${index}.png&w=640&q=75`}
             alt=""
           />
@@ -112,7 +112,7 @@ const zippo = () => {
           first high-quality art projects in the blockchain ecosystems and in ETC. Be part of the club!
         </p>
 
-        <div className="mt-12 grid grid-cols-2 gap-x-4 gap-y-4 text-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+        <div className="mt-12 grid grid-cols-2 gap-x-4 gap-y-8 text-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
           <Samurais />
         </div>
       </div>
