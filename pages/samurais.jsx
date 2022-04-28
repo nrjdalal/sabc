@@ -14,6 +14,26 @@ const zippo = () => {
     )
   }
 
+  const Samurais = () => {
+    return (
+      <div>
+        <img
+          className="aspect-square"
+          src="https://etclazylions.com/_next/image?url=%2Fimages%2F1.png&w=640&q=75"
+          alt=""
+        />
+
+        <h2 className="mt-6 font-anton text-2xl text-yellow-400">Lazy Lions</h2>
+        <h3 className="mt-3 font-anton text-yellow-400"># 1</h3>
+
+        <p className="mt-6 text-xl font-medium text-orange-400">
+          Rarity Rank
+          <br /># 4927
+        </p>
+      </div>
+    )
+  }
+
   return (
     <div className="mx-auto p-6 md:p-16 xl:container">
       <div className="pt-24 pb-8">
@@ -44,7 +64,7 @@ const zippo = () => {
         </div>
       </div>
 
-      <div className="pb-8">
+      <div>
         <Cards
           src="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bluehost-v1-0-2%2F782%2F1192782%2FxZ9n2NCd%2F7bead90c1a15419b97182b19519f9745&methods=resize%2C600%2C5000"
           title="Diamond Zippo"
@@ -75,6 +95,39 @@ const zippo = () => {
           <br />
           Silver Zippo is used to generate normal to middle-ranked Gen2 apes by breeding.
         </Cards>
+      </div>
+
+      <div className="pt-24 pb-8">
+        <h1 className="font-anton text-4xl tracking-wider text-yellow-300">All Lazy Lions</h1>
+        <p className="mt-8 text-white">
+          Ethereum Classic Lazy lions, is an exclusive 5,000 only mint-able premium NFT living on the Ethereum Classic
+          (ETC) blockchain. No two pieces of these digital Lazy Lions are alike. Each being unique and pristine, there
+          is an order of rarity that makes certain ones more valuable than the others. These Lazy Lions are amongst the
+          first high-quality art projects in the blockchain ecosystems and in ETC. Be part of the club!
+        </p>
+
+        <div className="mt-12 grid grid-cols-2 gap-x-4 gap-y-4 text-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+          <Samurais />
+        </div>
       </div>
     </div>
   )
