@@ -3,7 +3,22 @@
 const breed = () => {
   return (
     <div className="mx-auto p-6 md:p-16 xl:container">
-      <div className="pt-24">
+      <div className="flex flex-col items-center pt-24 text-center">
+        <h1 className="font-anton text-4xl tracking-wider text-yellow-300">2 ETC to mint 1 NFT</h1>
+        <p className="mt-8 text-gray-100">
+          Total remaining
+          <br />
+          3000/5000
+        </p>
+
+        <div className="mt-16 flex w-full flex-col items-center rounded-2xl bg-red-900 p-4 py-12">
+          <label>How many samurais you want to mint?</label>
+          <input type="number" className="mt-4 rounded-md text-center text-black" />
+          <button className="mt-8 rounded-md bg-yellow-400 px-8 py-2 text-black">Mint</button>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center pt-24 text-center">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">Breeding Formula</h1>
         <p className="mt-8 text-gray-100">
           Combining Gen1 NFT with ZIPPO and $OSARU coins creates a new ape which is a Gen2 ape collection.
@@ -17,7 +32,7 @@ const breed = () => {
         />
       </div>
 
-      <div className="pt-24">
+      <div className="flex flex-col items-center pt-24 text-center">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">The Rarity of Gen2 Apes</h1>
         <p className="mt-8 text-gray-100">
           The rarity of Gen2 depends on the type of ZIPPO being bred.
@@ -31,7 +46,7 @@ const breed = () => {
         />
       </div>
 
-      <div className="pt-24 pb-8">
+      <div className="flex flex-col items-center pt-24 pb-8 text-center">
         <h1 className="font-anton text-4xl tracking-wider text-yellow-300">Frequently Asked Questions</h1>
 
         <div className="mt-12">
