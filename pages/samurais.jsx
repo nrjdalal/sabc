@@ -15,23 +15,29 @@ const zippo = () => {
   }
 
   const Samurais = () => {
-    return (
-      <div>
-        <img
-          className="aspect-square"
-          src="https://etclazylions.com/_next/image?url=%2Fimages%2F1.png&w=640&q=75"
-          alt=""
-        />
+    let sarr = []
 
-        <h2 className="mt-6 font-anton text-2xl text-yellow-400">Lazy Lions</h2>
-        <h3 className="mt-3 font-anton text-yellow-400"># 1</h3>
+    for (let index = 1; index < 101; index++) {
+      sarr.push(
+        <div>
+          <img
+            className="aspect-square"
+            src={`https://etclazylions.com/_next/image?url=%2Fimages%2F${index}.png&w=640&q=75`}
+            alt=""
+          />
 
-        <p className="mt-6 text-xl font-medium text-orange-400">
-          Rarity Rank
-          <br /># 4927
-        </p>
-      </div>
-    )
+          <h2 className="mt-6 font-anton text-2xl text-yellow-400">Lazy Lions</h2>
+          <h3 className="mt-3 font-anton text-yellow-400"># {index}</h3>
+
+          <p className="mt-6 text-xl font-medium text-orange-400">
+            Rarity Rank
+            <br /># 941
+          </p>
+        </div>
+      )
+    }
+
+    return sarr
   }
 
   return (
@@ -107,25 +113,6 @@ const zippo = () => {
         </p>
 
         <div className="mt-12 grid grid-cols-2 gap-x-4 gap-y-4 text-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
-          <Samurais />
           <Samurais />
         </div>
       </div>
