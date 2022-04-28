@@ -17,7 +17,7 @@ const zippo = () => {
   const Samurais = () => {
     let sarr = []
 
-    for (let index = 1; index < 101; index++) {
+    for (let index = 1; index < 181; index++) {
       sarr.push(
         <div>
           <img
