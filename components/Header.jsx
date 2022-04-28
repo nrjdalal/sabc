@@ -42,7 +42,7 @@ const Header = () => {
       <nav
         className={`${
           menu ? 'flex' : 'hidden'
-        } fixed top-0 z-10 h-screen w-full flex-col items-center justify-between bg-black p-6 lg:flex lg:h-16 lg:flex-row`}
+        } fixed top-0 z-10 h-full w-full flex-col items-center justify-between bg-black p-6 lg:flex lg:h-16 lg:flex-row`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
